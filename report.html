@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NearMiss Health</title>
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+</head>
+
+
+<style>
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+<form class="pure-form">
+    <fieldset>
+        <legend>Optional Reporter Info</legend>
+
+        <input type="date" placeholder="Date">
+        <input type="name" placeholder="Name">
+        <input type="facility" placeholder = "Facility">
+
+        
+    </fieldset>
+</form>	
+
+<h2>General Incident Background</h2>
+<p>Scope and scale of potential harm avoided</p>
+
+<div class="dropdown" style="float:center;">
+  <button class="dropbtn">Potential for Harm</button>
+  <div class="dropdown-content" style="left:0;">
+    <a href="#">No Harm</a>
+    <a href="#">Minor Adverse Outcome (not treatment required)</a>
+    <a href="#">Moderate Adverse Outcome (treatment required)</a>
+    <a href="#">Serious Adverse Outcome (Permanent Adverse Effects)</a>
+    <a href="#">Death</a>
+
+  </div>
+</div>
+
+<div class="dropdown" style="float:center;">
+  <button class="dropbtn">Category of Error</button>
+  <div class="dropdown-content">
+    <a href="#">Communication / handoff</a>
+    <a href="#">Studies</a>
+    <a href="#">Diagnosis</a>
+    <a href="#">Medication</a>
+    <a href="#">Other Treatment / Follow-up</a>
+    <a href="#">Records</a>
+    <a href="#">Administration</a>
+    <a href="#">No error</a>
+    
+    
+  </div>
+</div>
+<div class="dropdown" style="float:center;">
+  <button class="dropbtn">Save made by</button>
+  <div class="dropdown-content">
+    <a href="#">Primary procedural check</a>
+    <a href="#">Secondary safety check</a>
+    <a href="#">Chance recognition</a>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<section>
+  <h2>Event Narrative</h2>
+  <ul class="input-list style-1 clearfix">
+
+    <form class="pure-form">
+
+      <input class="pure-input-1-4" input type="text" placeholder="Narrative" height:"24-24" width="24-24">
+    </form>
+    
+  </ul>
+</section>
+
+
+
+</body>
+</html>
+
