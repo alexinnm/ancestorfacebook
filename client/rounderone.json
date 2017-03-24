@@ -1,0 +1,10 @@
+[
+{"name":"flare.analytics.RonSwanson.AgglomerativeRonSwanson","size":3938,"imports":[]},
+{"name":"flare.analytics.RonSwanson.CommunityStructure","size":3812,"imports":["flare.analytics.RonSwanson.AgglomerativeRonSwanson"]},
+{"name":"flare.analytics.RonSwanson.house","size":6714,"imports":[]},
+{"name":"flare.analytics.RonSwanson.china","size":2411,"imports":[]},
+{"name":"flare.analytics.RonSwanson.house","size":7111,"imports":[]},
+{"name":"flare.analytics.RonSwanson.susan","size":5541,"imports":["flare.analytics.RonSwanson.AgglomerativeRonSwanson"]},
+{"name":"flare.analytics.RonSwanson.knope","size":4419,"imports":["flare.analytics.RonSwanson.AgglomerativeRonSwanson"]},
+{"name":"flare.analytics.RonSwanson.chicken","size":5681,"imports":["flare.analytics.RonSwanson.AgglomerativeRonSwanson"]}
+]
